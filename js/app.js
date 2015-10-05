@@ -16,6 +16,8 @@
                 this.editMode = getURLParameter('edit') == null ? false : true;
                 $scope.editMode = this.editMode;
                 this.storage = window.localStorage;
+                this.language = getURLParameter('lang') == null ? (this.storage.getItem('lang') == null ? 'en' : this.storage.getItem('lang') ) : getURLParameter('lang');
+                //$scope.language = this.language;
                 
                 if (this.userData == undefined || this.userData == null) {
                     this.userData = this.storage.getItem('userData');
@@ -39,6 +41,10 @@
                     }
                 });
                 
+                this.getAnimalName = function(card) {
+                    return acNames[this.language][parseInt(card.nCard)-1];
+                }
+                
                 function genUserData(data) {
                     that.userData = {};
                     for(var i = 0; i < data.length; i++) {
@@ -48,6 +54,11 @@
                 
                 function getURLParameter(name) {
                     return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+                }
+                
+                $scope.changeLanguage = function() {
+                    that.language = $scope.language.code;
+                    that.storage.setItem('lang', $scope.language.code);
                 }
                 
                 $scope.saveChanges = function(opt) {
@@ -62,6 +73,13 @@
                 
                 $scope.exportUserData = function(id) {
                     $('#'+id).html($scope.exportData());
+                }
+                
+                $scope.exportShortUrl = function(id) {
+                    var urlData = $scope.exportData();
+                    $.getJSON("http://is.gd/create.php?format=json&url="+window.location.origin+window.location.pathname+"?data="+urlData).success(function(response){
+                        $('#'+id).html(response.shorturl);
+                    });
                 }
                 
                 $scope.exportData = function(){
@@ -82,6 +100,17 @@
                     }
                     
                     return true;
+                }
+                
+                $scope.appLangs = [
+                    {name: "English", code: "en"},
+                    {name: "Español", code: "es"},
+                    {name: "Frances", code: "fr"}
+                ];
+                
+                for (var i = 0; i < $scope.appLangs.length; i++) {
+                    if ($scope.appLangs[i].code == this.language)
+                        $scope.language = $scope.appLangs[i];
                 }
 
             },

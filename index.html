@@ -4,11 +4,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/names.js"></script>
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<select id="langSelect" class="btn-orange ac-button" ng-model="language" ng-options="code.name for code in appLangs" ng-change="changeLanguage()">
+</select>
 <div id="header">
     <img src="img/hhd-logo.png" title="Animal Crossing: Happy Home Designer" width="35%">
 </div>
