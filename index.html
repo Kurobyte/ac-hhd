@@ -13,8 +13,8 @@
     <img src="img/hhd-logo.png" title="Animal Crossing: Happy Home Designer" width="35%">
 </div>
 <div style="text-align: center; font-size: 2em; color: #4094d1;">List of amiibo cards<br>
-<a class="btn btn-blue ac-button" href="#export" data-toggle="modal">Export</a>
-    <a class="btn btn-yellow ac-button" href="#import" data-toggle="modal">Import</a>
+<a class="btn btn-blue ac-button" href="#export" data-toggle="modal" ng-show="editMode">Export</a>
+    <a class="btn btn-yellow ac-button" href="#import" data-toggle="modal" ng-show="editMode">Import</a>
     <a class="btn btn-green ac-button" href="#save" ng-click="saveChanges(true)" ng-show="editMode">Save</a>
     <br>
 </div>
