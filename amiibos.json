@@ -1,0 +1,604 @@
+{
+    "amiiboData": [
+        {
+            "id": "acCard-001",
+            "nCard": "001",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card001.png",
+            "name": "Isabelle"
+        },
+        {
+            "id": "acCard-002",
+            "nCard": "002",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card002.png",
+            "name": "Tom Nook"
+        },
+        {
+            "id": "acCard-003",
+            "nCard": "003",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card003.png",
+            "name": "DJ KK"
+        },
+        {
+            "id": "acCard-004",
+            "nCard": "004",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card004.png",
+            "name": "Sable"
+        },
+        {
+            "id": "acCard-005",
+            "nCard": "005",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card005.png",
+            "name": "Kappn"
+        },
+        {
+            "id": "acCard-006",
+            "nCard": "006",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card006.png",
+            "name": "Resetti"
+        },
+        {
+            "id": "acCard-007",
+            "nCard": "007",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card007.png",
+            "name": "TJoan"
+        },
+        {
+            "id": "acCard-008",
+            "nCard": "008",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card008.png",
+            "name": "Timmy"
+        },
+        {
+            "id": "acCard-009",
+            "nCard": "009",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card009.png",
+            "name": "Digby"
+        },
+        {
+            "id": "acCard-010",
+            "nCard": "010",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card010.png",
+            "name": "Pascal"
+        },
+        {
+            "id": "acCard-011",
+            "nCard": "011",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card011.png",
+            "name": "Harriet"
+        },
+        {
+            "id": "acCard-012",
+            "nCard": "012",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card012.png",
+            "name": "Crazy Redd"
+        },
+        {
+            "id": "acCard-013",
+            "nCard": "013",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card013.png",
+            "name": "Saharah"
+        },
+        {
+            "id": "acCard-014",
+            "nCard": "014",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card014.png",
+            "name": "Luna"
+        },
+        {
+            "id": "acCard-015",
+            "nCard": "015",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card015.png",
+            "name": "Tortimer"
+        },
+        {
+            "id": "acCard-016",
+            "nCard": "016",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card016.png",
+            "name": "Lyle"
+        },
+        {
+            "id": "acCard-017",
+            "nCard": "017",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card017.png",
+            "name": "Lottie"
+        },
+        {
+            "id": "acCard-018",
+            "nCard": "018",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card018.png",
+            "name": "TBob"
+        },
+        {
+            "id": "acCard-019",
+            "nCard": "019",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card019.png",
+            "name": "Fauna"
+        },
+        {
+            "id": "acCard-020",
+            "nCard": "020",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card020.png",
+            "name": "Curt"
+        },
+        {
+            "id": "acCard-021",
+            "nCard": "021",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card021.png",
+            "name": "Portia"
+        },
+        {
+            "id": "acCard-022",
+            "nCard": "022",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card022.png",
+            "name": "Leonardo"
+        },
+        {
+            "id": "acCard-023",
+            "nCard": "023",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card023.png",
+            "name": "Cheri"
+        },
+        {
+            "id": "acCard-024",
+            "nCard": "024",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card024.png",
+            "name": "Kyle"
+        },
+        {
+            "id": "acCard-025",
+            "nCard": "025",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card025.png",
+            "name": "Al"
+        },
+        {
+            "id": "acCard-026",
+            "nCard": "026",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card026.png",
+            "name": "Renée"
+        },
+        {
+            "id": "acCard-027",
+            "nCard": "027",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card027.png",
+            "name": "Lopez"
+        },
+        {
+            "id": "acCard-028",
+            "nCard": "028",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card028.png",
+            "name": "Jambette"
+        },
+        {
+            "id": "acCard-029",
+            "nCard": "029",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card029.png",
+            "name": "Rasher"
+        },
+        {
+            "id": "acCard-030",
+            "nCard": "030",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card030.png",
+            "name": "Tiffany"
+        },
+        {
+            "id": "acCard-031",
+            "nCard": "031",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card031.png",
+            "name": "Sheldon"
+        },
+        {
+            "id": "acCard-032",
+            "nCard": "032",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card032.png",
+            "name": "Bluebear"
+        },
+        {
+            "id": "acCard-033",
+            "nCard": "033",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card033.png",
+            "name": "Bill"
+        },
+        {
+            "id": "acCard-034",
+            "nCard": "034",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card034.png",
+            "name": "Kiki"
+        },
+        {
+            "id": "acCard-035",
+            "nCard": "035",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card035.png",
+            "name": "Deli"
+        },
+        {
+            "id": "acCard-036",
+            "nCard": "036",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card036.png",
+            "name": "Alli"
+        },
+        {
+            "id": "acCard-037",
+            "nCard": "037",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card037.png",
+            "name": "Kabuki"
+        },
+        {
+            "id": "acCard-038",
+            "nCard": "038",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card038.png",
+            "name": "Patty"
+        },
+        {
+            "id": "acCard-039",
+            "nCard": "039",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card039.png",
+            "name": "Jitters"
+        },
+        {
+            "id": "acCard-040",
+            "nCard": "040",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card040.png",
+            "name": "Gigi"
+        },
+        {
+            "id": "acCard-041",
+            "nCard": "041",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card041.png",
+            "name": "Quillson"
+        },
+        {
+            "id": "acCard-042",
+            "nCard": "042",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card042.png",
+            "name": "Marcie"
+        },
+        {
+            "id": "acCard-043",
+            "nCard": "043",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card043.png",
+            "name": "Puck"
+        },
+        {
+            "id": "acCard-044",
+            "nCard": "044",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card044.png",
+            "name": "Shari"
+        },
+        {
+            "id": "acCard-045",
+            "nCard": "045",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card045.png",
+            "name": "Octavian"
+        },
+        {
+            "id": "acCard-046",
+            "nCard": "046",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card046.png",
+            "name": "Winnie"
+        },
+        {
+            "id": "acCard-047",
+            "nCard": "047",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card047.png",
+            "name": "Knox"
+        },
+        {
+            "id": "acCard-048",
+            "nCard": "048",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card048.png",
+            "name": "Sterling"
+        },
+        {
+            "id": "acCard-049",
+            "nCard": "049",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card049.png",
+            "name": "Bonbon"
+        },
+        {
+            "id": "acCard-050",
+            "nCard": "050",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card050.png",
+            "name": "Punchy"
+        },
+        {
+            "id": "acCard-051",
+            "nCard": "051",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card051.png",
+            "name": "Opal"
+        },
+        {
+            "id": "acCard-052",
+            "nCard": "052",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card052.png",
+            "name": "Poppy"
+        },
+        {
+            "id": "acCard-053",
+            "nCard": "053",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card053.png",
+            "name": "Limberg"
+        },
+        {
+            "id": "acCard-054",
+            "nCard": "054",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card054.png",
+            "name": "Deena"
+        },
+        {
+            "id": "acCard-055",
+            "nCard": "055",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card055.png",
+            "name": "Snake"
+        },
+        {
+            "id": "acCard-056",
+            "nCard": "056",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card056.png",
+            "name": "Bangle"
+        },
+        {
+            "id": "acCard-057",
+            "nCard": "057",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card057.png",
+            "name": "Phil"
+        },
+        {
+            "id": "acCard-058",
+            "nCard": "058",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card058.png",
+            "name": "Monique"
+        },
+        {
+            "id": "acCard-059",
+            "nCard": "059",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card059.png",
+            "name": "Nate"
+        },
+        {
+            "id": "acCard-060",
+            "nCard": "060",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card060.png",
+            "name": "Samson"
+        },
+        {
+            "id": "acCard-061",
+            "nCard": "061",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card061.png",
+            "name": "Tutu"
+        },
+        {
+            "id": "acCard-062",
+            "nCard": "062",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card062.png",
+            "name": "T-Bone"
+        },
+        {
+            "id": "acCard-063",
+            "nCard": "063",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card063.png",
+            "name": "Mint"
+        },
+        {
+            "id": "acCard-064",
+            "nCard": "064",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card064.png",
+            "name": "Pudge"
+        },
+        {
+            "id": "acCard-065",
+            "nCard": "065",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card065.png",
+            "name": "Midge"
+        },
+        {
+            "id": "acCard-066",
+            "nCard": "066",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card066.png",
+            "name": "Gruff"
+        },
+        {
+            "id": "acCard-067",
+            "nCard": "067",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card067.png",
+            "name": "Flurry"
+        },
+        {
+            "id": "acCard-068",
+            "nCard": "068",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card068.png",
+            "name": "Clyde"
+        },
+        {
+            "id": "acCard-069",
+            "nCard": "069",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card069.png",
+            "name": "Bella"
+        },
+        {
+            "id": "acCard-070",
+            "nCard": "070",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card070.png",
+            "name": "Biff"
+        },
+        {
+            "id": "acCard-071",
+            "nCard": "071",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card071.png",
+            "name": "Yuka"
+        },
+        {
+            "id": "acCard-072",
+            "nCard": "072",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card072.png",
+            "name": "Lionel"
+        },
+        {
+            "id": "acCard-073",
+            "nCard": "073",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card073.png",
+            "name": "Flo"
+        },
+        {
+            "id": "acCard-074",
+            "nCard": "074",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card074.png",
+            "name": "Cobb"
+        },
+        {
+            "id": "acCard-075",
+            "nCard": "075",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card075.png",
+            "name": "Amelia"
+        },
+        {
+            "id": "acCard-076",
+            "nCard": "076",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card076.png",
+            "name": "Jeremiah"
+        },
+        {
+            "id": "acCard-077",
+            "nCard": "077",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card077.png",
+            "name": "Cherry"
+        },
+        {
+            "id": "acCard-078",
+            "nCard": "078",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card078.png",
+            "name": "Roscoe"
+        },
+        {
+            "id": "acCard-079",
+            "nCard": "079",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card079.png",
+            "name": "Truffles"
+        },
+        {
+            "id": "acCard-080",
+            "nCard": "080",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card080.png",
+            "name": "Eugene"
+        },
+        {
+            "id": "acCard-081",
+            "nCard": "081",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card081.png",
+            "name": "Eunice"
+        },
+        {
+            "id": "acCard-082",
+            "nCard": "082",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card082.png",
+            "name": "Goose"
+        },
+        {
+            "id": "acCard-083",
+            "nCard": "083",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card083.png",
+            "name": "Annalisa"
+        },
+        {
+            "id": "acCard-084",
+            "nCard": "084",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card084.png",
+            "name": "Benjamin"
+        },
+        {
+            "id": "acCard-085",
+            "nCard": "085",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card085.png",
+            "name": "Pancetti"
+        },
+        {
+            "id": "acCard-086",
+            "nCard": "086",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card086.png",
+            "name": "Chief"
+        },
+        {
+            "id": "acCard-087",
+            "nCard": "087",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card087.png",
+            "name": "GBunnie"
+        },
+        {
+            "id": "acCard-088",
+            "nCard": "088",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card088.png",
+            "name": "Clay"
+        },
+        {
+            "id": "acCard-089",
+            "nCard": "089",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card089.png",
+            "name": "Diana"
+        },
+        {
+            "id": "acCard-090",
+            "nCard": "090",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card090.png",
+            "name": "Axel"
+        },
+        {
+            "id": "acCard-091",
+            "nCard": "091",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card091.png",
+            "name": "Muffy"
+        },
+        {
+            "id": "acCard-092",
+            "nCard": "092",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card092.png",
+            "name": "Henry"
+        },
+        {
+            "id": "acCard-093",
+            "nCard": "093",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card093.png",
+            "name": "Bertha"
+        },
+        {
+            "id": "acCard-094",
+            "nCard": "094",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card094.png",
+            "name": "Cyrano"
+        },
+        {
+            "id": "acCard-095",
+            "nCard": "095",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card095.png",
+            "name": "Peanut"
+        },
+        {
+            "id": "acCard-096",
+            "nCard": "096",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card096.png",
+            "name": "Cole"
+        },
+        {
+            "id": "acCard-097",
+            "nCard": "097",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card097.png",
+            "name": "Willow"
+        },
+        {
+            "id": "acCard-098",
+            "nCard": "098",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card098.png",
+            "name": "Roald"
+        },
+        {
+            "id": "acCard-099",
+            "nCard": "099",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card099.png",
+            "name": "Molly"
+        },
+        {
+            "id": "acCard-100",
+            "nCard": "100",
+            "img": "http://www.nintendo.co.jp/3ds/edhj/images/amiibocard/cardlist01/card100.png",
+            "name": "Walker"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+<!-- Modal -->
+<div class="modal fade" id="export" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content modal-export">
+            <div class="modal-header ac-modal-header modal-header-export">
+                <h2>Export List</h2>
+            </div>
+            <div class="modal-body">
+                <p>This list is saved localy in your browser, and you will loose it if you clear your browser data. But you can export the list or share it as url</p>
+                <button ng-click="exportUserData('exportArea')" class="btn btn-blue ac-button">Export list</button><button ng-click="exportUrl('exportArea')" class="btn btn-blue ac-button">Share list</button>
+                <textarea id="exportArea" disabled>{{exportData()}}</textarea>
+            </div>
+            <div class="modal-footer modal-footer-export">
+                <button type="button" class="btn btn-blue ac-button pull-left" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

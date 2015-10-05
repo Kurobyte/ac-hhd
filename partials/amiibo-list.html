@@ -1,0 +1,10 @@
+<div class="amiibocard" ng-repeat="card in aList.amiibos">
+    <div class="amiiboImage">
+        <img ng-src="{{card.img}}" ng-class="{'falti': aList.userData[card.id].units == 0}">
+    </div>
+    <div class="amiiboInfo">
+        <div class="infoTitle">{{card.name}}</div>
+        <div class="infoUnits form-group" ng-show="aList.editMode"><label style="margin-left: 5px;" >Units:</label><input type="number" placeholder="0" class="" ng-model="aList.userData[card.id].units" min="0" max="99" ng-change="saveChanges(false)" /></div>
+        <div class="infoUnits form-group" ng-hide="aList.editMode"><label style="margin-left: 5px;" >Units: {{aList.userData[card.id].units}}</label></div>
+    </div>
+</div>

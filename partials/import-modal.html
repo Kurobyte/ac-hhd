@@ -1,0 +1,17 @@
+<!-- Modal -->
+<div class="modal fade" id="import" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content modal-import">
+            <div class="modal-header ac-modal-header modal-header-import">
+                <h2>Import List</h2>
+            </div>
+            <div class="modal-body">
+                <p>Paste your exported list in the box and click "import" to load the list.</p>
+                <textarea id="importArea"></textarea>
+            </div>
+            <div class="modal-footer modal-footer-export">
+                <button type="button" class="btn btn-yellow ac-button pull-left" data-dismiss="modal" ng-click="importData('importArea')">Import</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
