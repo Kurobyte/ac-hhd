@@ -1,4 +1,3 @@
-<!-- Modal -->
 <div class="modal fade" id="export" tabindex="-1" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content modal-export">
@@ -7,12 +6,25 @@
             </div>
             <div class="modal-body">
                 <p>This list is saved localy in your browser, and you will loose it if you clear your browser data. But you can export the list or share it as url</p>
-                <button ng-click="exportUserData('exportArea')" class="btn btn-blue ac-button">Export list</button><button ng-click="exportUrl('exportArea')" class="btn btn-blue ac-button">Share list</button><button ng-click="exportShortUrl('exportArea')" class="btn btn-blue ac-button">Share list(Short URL)</button>
-                <textarea id="exportArea" readonly>{{exportData()}}</textarea>
+                <button ng-click="exportUserData('exportArea')" class="btn btn-blue ac-button">Export list</button><button ng-click="exportUrl('exportArea')" class="btn btn-blue ac-button">Share list</button><button ng-click="exportShortUrl('exportArea')" class="btn btn-blue ac-button clip">Share list(Short URL)</button>
+                <textarea id="exportArea" class="clip" data-clipboard-target="#exportArea" readonly>{{exportData()}}</textarea>
             </div>
             <div class="modal-footer modal-footer-export">
                 <button type="button" class="btn btn-blue ac-button pull-left" data-dismiss="modal">Close</button>
             </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+        </div>
+    </div>
+</div>
+<script>
+    var clipboard = new Clipboard('.clip');
+    
+    clipboard.on('success', function(e) {
+        e.clearSelection();
+
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+
+        showMessage("Copied!");
+    });
+</script>

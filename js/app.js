@@ -17,7 +17,6 @@
                 $scope.editMode = this.editMode;
                 this.storage = window.localStorage;
                 this.language = getURLParameter('lang') == null ? (this.storage.getItem('lang') == null ? 'en' : this.storage.getItem('lang') ) : getURLParameter('lang');
-                //$scope.language = this.language;
                 
                 if (this.userData == undefined || this.userData == null) {
                     this.userData = this.storage.getItem('userData');
@@ -64,7 +63,7 @@
                 $scope.saveChanges = function(opt) {
                     that.storage.setItem('userData', btoa(JSON.stringify(that.userData)));
                     if (opt)
-                        alert('List saved!!');
+                        showMessage("List saved!");
                 }
                 
                 $scope.exportUrl = function(id) {

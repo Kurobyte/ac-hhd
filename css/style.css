@@ -20,7 +20,7 @@ input[type="number"], textarea {
 }
 
 textarea {
-    width: 552px;
+    width: 100%;
     height: 142px;
     resize: none;
 }
@@ -122,6 +122,18 @@ textarea {
     -o-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     filter: grayscale(100%); 
+}
+
+.ac-message {
+    right: 10px;
+    position: absolute;
+    z-index: 1050;
+    
+    border-radius: 20px;
+    border: #85DE85 5px solid;
+    box-shadow: #C8FBC7 3px 3px, #C8FBC7 0px 3px;
+    
+    background-image: url('../img/outline_bg_3.png');
 }
 
 .ac-button {
